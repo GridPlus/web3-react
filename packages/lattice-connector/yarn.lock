@@ -322,6 +322,18 @@
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
 
+"@sushi-web3-react/abstract-connector@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sushi-web3-react/abstract-connector/-/abstract-connector-1.0.1.tgz#0274479e9c0e713a0a92103f6ff75a95919ee219"
+  integrity sha512-HjHox8rgJKHL3yvf6LA6ZS8H8aVFh5HpGp2kuWl4DVXhRiE2Lq/2eM8lOhXQc4bpICtIVmeRbycfW015uIMZLg==
+  dependencies:
+    "@sushi-web3-react/types" "^1.0.1"
+
+"@sushi-web3-react/types@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sushi-web3-react/types/-/types-1.0.1.tgz#1add17474b49d7e729fcd5f7aa2007606ab15235"
+  integrity sha512-aaol/VrQWDf5OGkmYG66bPVl0bzxPG0+m5xX0rGnoPHQCyeBhKzunlKvF8Cpx/RIjnTjhgy57bijFf2V27G/Qg==
+
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
@@ -1064,7 +1076,7 @@ bignumber.js@7.2.1:
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-7.2.1.tgz#80c048759d826800807c4bfd521e50edbba57a5f"
 
-bignumber.js@^9.0.0, bignumber.js@~9.0.0:
+bignumber.js@^9.0.0, bignumber.js@^9.0.1, bignumber.js@~9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
 
@@ -1099,6 +1111,11 @@ bip66@^1.1.5:
   resolved "https://registry.yarnpkg.com/bip66/-/bip66-1.1.5.tgz#01fa8748785ca70955d5011217d1b3139969ca22"
   dependencies:
     safe-buffer "^5.0.1"
+
+bitwise@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/bitwise/-/bitwise-2.0.4.tgz#3b6f95c43d614b83b980331d3b41d78b9c902039"
+  integrity sha512-ZOByl1Sc8SH2/owfRfR1apaC1ELNqHqAAtfqs1Ixqk/9Bod6VxWz10MiMYXkNiL95RdFAqOGQxm1TCGPf1iFyw==
 
 bl@^4.0.3:
   version "4.0.3"
@@ -2694,10 +2711,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
 
 gridplus-sdk@latest:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/gridplus-sdk/-/gridplus-sdk-0.6.1.tgz#45709a9d94b4cc14e5004751b9382a8665c2e050"
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/gridplus-sdk/-/gridplus-sdk-0.7.1.tgz#314619b4f9e7942f5f45b42032249ff6f08b3b67"
+  integrity sha512-JYsWCJ01zOmgGbsmGjrKcQRQ6MIDmYo7gZmUf2rzHDEPOmLQA9BJJxZ+36R9jHWkdttKCd9g1zFHtAzaulk+Sg==
   dependencies:
     aes-js "^3.1.1"
+    bignumber.js "^9.0.1"
+    bitwise "^2.0.4"
     bs58 "^4.0.1"
     bs58check "^2.1.2"
     buffer "^5.6.0"
